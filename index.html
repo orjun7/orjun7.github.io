@@ -13,7 +13,27 @@
   <meta property="og:image" content="assets/cover.jpg" />
   <meta name="theme-color" content="#0ea5e9" />
   <link rel="preload" as="image" href="assets/avatar.jpg" />
-  <style>
+  <style>orjunadmin// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalyticfirebase "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBdDO67bW6vucHuoQB09A6vIVIoKeHbDfg",
+  authDomain: "orjunadmin.firebaseapp.com",
+  projectId: "orjunadmin",
+  storageBucket: "orjunadmin.firebasestorage.app",
+  messagingSenderId: "469961999405",
+  appId: "1:469961999405:web:243eb49dcc0d4861d224a4",
+  measurementId: "G-7GCNFNY9CE"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
     /* ====== Design System ====== */
     :root{
       --bg: #0b0f14;           /* base bg */
